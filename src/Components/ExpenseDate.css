@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.expense-date {
+    display: flex;
+    flex-direction: column;
+    width: 5.5rem;
+    height: 5.5rem;
+    border: 1px solid #ececec;
+    background-color: var(--bg);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    color: #555050;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .expense-date__month {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  
+  .expense-date__year {
+    font-size: 0.75rem;
+  }
+  
+  .expense-date__day {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
